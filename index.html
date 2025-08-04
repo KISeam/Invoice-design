@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Design</title>
+
+    <!-- Google Poppins Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <div
+        style="
+          width: 8.27in;
+          height: 11.69in;
+          font-family: Arial, sans-serif;
+          box-sizing: border-box;
+          background: #ffffff;
+          position: relative;
+        "
+      >
+        <!-- Header Section Start -->
+        <div>
+          <div style="width: 100%">
+            <img
+              src="./images/Vector.svg"
+              alt="Vector"
+              style="height: 100%; width: 100%"
+            />
+          </div>
+
+          <div
+            style="
+              position: absolute;
+              right: 0;
+              top: 35px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+              padding: 0 20px;
+            "
+          >
+            <!-- Logo -->
+            <div style="height: 40px">
+              <img
+                src="./images/logo-website-Black.png"
+                alt="Logo"
+                style="height: 100%"
+              />
+            </div>
+
+            <div style="text-align: right">
+              <h2
+                style="
+                  text-transform: uppercase;
+                  font-size: 34px;
+                  font-weight: 500;
+                "
+              >
+                INVOICE
+              </h2>
+              <p style="font-size: 18px; font-weight: 600">Makeup Coders</p>
+            </div>
+          </div>
+        </div>
+        <!-- Header Section End -->
+
+        <!-- Invoice Info Start -->
+        <div
+          style="
+            padding: 0 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <p style="font-size: 18px; font-weight: 400; color: gray">
+            Invoice No:
+            <span style="font-weight: 600; color: black"> #123456</span>
+          </p>
+          <div style="text-align: right">
+            <p
+              style="
+                font-size: 18px;
+                font-weight: 400;
+                color: gray;
+                padding-bottom: 4px;
+              "
+            >
+              Date:
+              <span style="font-weight: 600; color: black"> 01 Jul 2025</span>
+            </p>
+            <p style="font-size: 18px; font-weight: 400; color: gray">
+              Payment Due Date:
+              <span style="font-weight: 600; color: black"> 16 Jul 2025</span>
+            </p>
+          </div>
+        </div>
+        <!-- Invoice Info End -->
+
+        <!-- Customer Info Start -->
+        <div style="padding: 0 20px">
+          <p style="font-size: 18px">Invoice To-</p>
+          <!-- Customer Name -->
+          <p
+            style="text-transform: uppercase; font-size: 18px; font-weight: 600"
+          >
+            MUHAMMAD MUKHLESUR RAHAMAN
+          </p>
+          <!-- Customer Number -->
+          <p
+            style="text-transform: uppercase; font-size: 18px; font-weight: 600"
+          >
+            Phone No. +880123456789
+          </p>
+        </div>
+        <!-- Customer Info End -->
+
+        <!-- Invoice Table Start -->
+        <div style="padding: 20px 20px 0">
+          <table
+            style="width: 100%; border-collapse: collapse; table-layout: fixed"
+          >
+            <thead style="background-color: #eef5fc">
+              <tr>
+                <th style="border: 1px solid #ccc; padding: 2px; width: 15%">
+                  Service Type
+                </th>
+                <th style="border: 1px solid #ccc; padding: 2px; width: 17%">
+                  Identification
+                </th>
+                <th style="border: 1px solid #ccc; padding: 2px; width: 15%">
+                  Issue Date
+                </th>
+                <th style="border: 1px solid #ccc; padding: 8px; width: 20%">
+                  Pax Name
+                </th>
+                <th style="border: 1px solid #ccc; padding: 8px; width: 18%">
+                  Details
+                </th>
+                <th style="border: 1px solid #ccc; padding: 8px; width: 15%">
+                  Amount
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">Makeup</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">123456</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">01 Jul 2025</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis, quasi?
+                  </p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px">Dhaka</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p
+                    style="
+                      font-size: 16px;
+                      font-weight: 600;
+                      text-align: center;
+                    "
+                  >
+                    ৳ 5000
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">Makeup</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">123456</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">01 Jul 2025</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px">Mukhlesur</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px">Dhaka</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p
+                    style="
+                      font-size: 16px;
+                      font-weight: 600;
+                      text-align: center;
+                    "
+                  >
+                    ৳ 5000
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">Makeup</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">123456</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px; text-align: center">01 Jul 2025</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px">Mukhlesur</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p style="font-size: 16px">Dhaka</p>
+                </td>
+                <td style="border: 1px solid #ccc; padding: 24px 8px">
+                  <p
+                    style="
+                      font-size: 16px;
+                      font-weight: 600;
+                      text-align: center;
+                    "
+                  >
+                    ৳ 5000
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Invoice Table End -->
+
+        <!-- Totals Start -->
+        <div style="padding: 20px 25px 0">
+          <p style="font-size: 16px; text-align: right; font-weight: 600">
+            Balance Due:
+            <span style="font-weight: normal; padding-left: 20px">
+              BDT 15,000.00
+            </span>
+          </p>
+          <p
+            style="
+              font-size: 16px;
+              text-align: right;
+              font-weight: 600;
+              padding: 15px 0;
+            "
+          >
+            Balance Paid:
+            <span style="font-weight: normal; padding-left: 20px">
+              BDT 0.00
+            </span>
+          </p>
+          <p style="font-size: 16px; text-align: right; font-weight: 600">
+            Balance Total Due:
+            <span style="font-weight: normal; padding-left: 20px">
+              BDT 15,000.00
+            </span>
+          </p>
+        </div>
+        <!-- Totals End -->
+
+        <!-- Bank & Contact Info Start -->
+        <div>
+          <div
+            style="
+              width: 100%;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              line-height: 0;
+            "
+          >
+            <img
+              src="./images/Vector.svg"
+              alt="Vector Image"
+              style="
+                height: 100%;
+                width: 100%;
+                transform: scale(-1);
+                display: block;
+              "
+            />
+          </div>
+          <div
+            style="
+              padding: 20px 25px 0;
+              position: absolute;
+              bottom: 35px;
+              left: 0;
+              width: 100%;
+            "
+          >
+            <div style="display: flex; justify-content: space-between">
+              <div>
+                <p><strong>Bank Details</strong></p>
+                <ul style="padding-left: 16px; margin-top: 4px">
+                  <li>City Bank Limited</li>
+                  <li>A/C Name: Travelion</li>
+                  <li>A/C No: 1781330020293</li>
+                  <li>Lake View Banani Branch</li>
+                  <li>Routing No: 225260638</li>
+                  <li>Swift Code: CIBLBDDH</li>
+                </ul>
+              </div>
+              <div style="text-align: right">
+                <p style="font-size: 24px; font-weight: 600">
+                  Total Due Amount
+                </p>
+                <p style="font-size: 24px; font-weight: 600">BDT 15,000.00</p>
+                <div style="padding-top: 20px">
+                  <p>+8801404411488</p>
+                  <p>Info@Travel-ion.com</p>
+                  <p>
+                    Level 6, House 7, Road 17, Block D,<br />Banani Dhaka 1213
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p
+              style="
+                font-size: 12px;
+                color: #888;
+                position: absolute;
+                bottom: 0;
+              "
+            >
+              NOTE: Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- Bank & Contact Info End -->
+      </div>
+    </div>
+  </body>
+</html>
